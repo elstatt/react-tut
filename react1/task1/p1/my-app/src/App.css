@@ -18,8 +18,26 @@ body {
   display: inline-block;
 }
 
-.App {
+.effect h1 {
+  display: inline-block;
+}
+
+.content {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+#profile img {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+ 
+}
+
+.pro-plate {
+  display: flex;
+  flex-direction: row;
 }

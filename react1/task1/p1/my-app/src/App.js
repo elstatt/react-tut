@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyInfo from './components/MyInfo';
-
+import Footer from './components/Footer'
 
 function KyokaInfo() {
   return (
@@ -38,9 +38,12 @@ function MomoInfo() {
 function App() {
   return (
     <div class="App">
+      <div class="content">
       <MyInfo />
       <KyokaInfo />
       <MomoInfo />
+      </div>
+      <Footer />
     </div>
   );
 }
