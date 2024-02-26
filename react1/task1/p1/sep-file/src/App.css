@@ -1,14 +1,14 @@
-.nav-bar header ul  {
+.headm ul  {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   display: flex;
 }
 
-.nav-bar header ul li {
+.headm ul li {
   padding: 0px 10px 0px 10px;
 }
 
-.nav-bar header ul li:hover {
+.headm ul li:hover {
   background-color: navajowhite;
 }

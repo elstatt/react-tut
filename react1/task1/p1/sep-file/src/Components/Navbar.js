@@ -2,8 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className="nav-bar">
-            <header>
+            <header className="headm">
                 <ul>
                     <li>
                         Home
@@ -19,7 +18,7 @@ function Navbar() {
                     </li>
                 </ul>
             </header>
-        </div>
+       
     )
 }
 
